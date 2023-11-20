@@ -2,6 +2,11 @@
 <html lang="es">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Calificaciones CENS</title>
@@ -25,6 +30,13 @@
         <a href="#estadisticas">Estadísticas</a>
         <a href="#calificaciones">Calificaciones</a>
     </nav>
+    <!-- carrusel de imagenes-->
+    <div class="banner-carousel">
+        <div><img src="imghtml/carrusel1.jpg" alt="Imagen 1"></div>
+        <div><img src="imghtml/carrusel2.jpg" alt="Imagen 2"></div>
+        <div><img src="imghtml/carrusel3.png" alt="Imagen 3"></div>
+        <!-- Agrega más divs según la cantidad de imágenes que desees mostrar -->
+    </div>
 
     <!-- Sección del Administrador -->
     <section id="empresas">
@@ -60,6 +72,8 @@
     <footer>
         <p>&copy; 2023 CENS - Sistema de Calificaciones</p>
     </footer>
+
+    <script src="carousel.js"></script>
 
 </body>
 
